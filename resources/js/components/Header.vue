@@ -4,9 +4,12 @@ const isShowDrawer = ref<boolean>(false)
 </script>
 
 <template>
-  <v-navigation-drawer v-model="isShowDrawer">
+  <v-navigation-drawer v-model="isShowDrawer" disable-resize-watcher>
     <v-container>
-      <v-list-item>Menu</v-list-item>
+      <div class="d-flex justify-space-between align-center">
+        <v-list-item-title class="title">Menu</v-list-item-title>
+        <v-btn @click="isShowDrawer = false" variant="text" icon="mdi-close"></v-btn>
+      </div>
 
       <v-divider></v-divider>
 
