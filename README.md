@@ -12,6 +12,8 @@
 - Vuetify3 beta
 - VueRouter4
 - Vuex4
+- SASS
+- Material Design Icons
 - Example Header and Footer Component
 
 
