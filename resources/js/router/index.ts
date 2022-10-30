@@ -10,7 +10,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/:pathMatch(.*)*',
-    name: 'NotFoundError',
+    name: 'NotFound',
     component: NotFound,
   },
 ]
