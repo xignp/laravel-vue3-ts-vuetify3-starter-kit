@@ -5,7 +5,7 @@ import NotFound from '../NotFound.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'top',
+    name: 'Top',
     component: Top,
   },
   {
