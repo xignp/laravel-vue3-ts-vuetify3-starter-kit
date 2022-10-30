@@ -1,4 +1,4 @@
-# Laravel8+Vue3+TS+Vuetify3+VueRouter4+Vuex4 BaseTemplate
+# Starter-Kit(BaseTemplate) for Laravel8+Vue3+TS+Vuetify3+VueRouter4+Vuex4
 
 ## Demo
 <kbd>![ss1](https://user-images.githubusercontent.com/51684013/198862762-93bb9c29-073f-43b9-a999-c093c74c55e3.png)</kbd>
@@ -14,9 +14,8 @@
 - Vuex4
 - SASS
 - Material Design Icons
+- Axios
 - Example Header and Footer Component
-
-
 
 ## Get Started
 1. Install packages.
@@ -46,10 +45,38 @@ php artisan serve
 npm run watch
 ```
 
+## Axios Plugin
+
+You can use existing axios instance if you need to fetch api.
+
+**resources/js/plugins/api.ts**
+```js:plugin.js
+import axios from 'axios'
+
+const api = axios.create({
+  baseURL: process.env.MIX_API_BASE_URL,
+  // withCredentials: true,
+})
+
+export default api
+```
+
+**Fetch Sample**
+```js
+import api from '../plugins/api'
+const getUser = async () => {
+  try {
+    const response = await api.get('/user')
+    console.log(response.data)
+  } catch (e) {
+    console.log(e)
+  }
+}
+```
 ## Contributing
 
 Please fork and pull request to main branch when you need new features or find bugs.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
