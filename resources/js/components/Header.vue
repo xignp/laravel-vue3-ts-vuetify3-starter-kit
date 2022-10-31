@@ -43,7 +43,7 @@ const isShowDrawer = ref<boolean>(false)
         <router-link to="/">SampleTitle</router-link>
       </h1>
     </v-toolbar-title>
-    <v-spacer></v-spacer>
+    <v-spacer class="d-none d-md-block"></v-spacer>
     <v-toolbar-items class="d-none d-md-block">
       <v-btn to="/home" variant="text">HOME</v-btn>
       <v-btn to="/services" variant="text">SERVICES</v-btn>
