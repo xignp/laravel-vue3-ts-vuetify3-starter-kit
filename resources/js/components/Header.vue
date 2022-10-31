@@ -36,7 +36,7 @@ const isShowDrawer = ref<boolean>(false)
     </v-container>
   </v-navigation-drawer>
 
-  <v-app-bar color="blue darken-2" absolute>
+  <v-app-bar color="primary" absolute>
     <v-app-bar-nav-icon @click="isShowDrawer = !isShowDrawer" class="d-md-none"></v-app-bar-nav-icon>
     <v-toolbar-title>
       <h1>
