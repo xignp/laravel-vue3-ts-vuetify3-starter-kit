@@ -16,6 +16,8 @@
 - SASS
 - Material Design Icons
 - Axios
+- Custom Theme (Vuetify)
+- 404ErrorPage (VueRouter)
 - Example Header and Footer Component
 
 ## Get Started
