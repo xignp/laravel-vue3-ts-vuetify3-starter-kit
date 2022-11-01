@@ -1,8 +1,9 @@
-# Starter-Kit(BaseTemplate) for Laravel8+Vue3+TS+Vuetify3+VueRouter4+Vuex4
+# Starter-Kit(BaseTemplate) for Laravel8+Vue3+TS+Vuetify3+VueRouter4+Pinia
 
 ## Demo
-<kbd>![ss1](https://user-images.githubusercontent.com/51684013/198862762-93bb9c29-073f-43b9-a999-c093c74c55e3.png)</kbd>
-<kbd>![ss2](https://user-images.githubusercontent.com/51684013/198862763-09ef701c-d50e-44de-8566-4187aeb843e6.png)</kbd>
+<kbd>![ss1](https://user-images.githubusercontent.com/51684013/199225294-005562ca-06ad-43c4-9fac-964b4ff81f5f.png)</kbd>
+<kbd>![ss2](https://user-images.githubusercontent.com/51684013/199225264-eab4ec38-c953-4a84-80e8-239f9aa69635.png)</kbd>
+
 
 
 ## Features
@@ -11,7 +12,7 @@
 - Typescript
 - Vuetify3 beta
 - VueRouter4
-- Vuex4
+- Pinia
 - SASS
 - Material Design Icons
 - Axios
