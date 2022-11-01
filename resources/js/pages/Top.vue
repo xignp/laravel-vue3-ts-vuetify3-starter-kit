@@ -1,11 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useCounterStore } from '../store/counter'
+const store = useCounterStore()
+const incrementCount = () => {
+  store.increment()
+}
+const decrementCount = () => {
+  store.decrement()
+}
+</script>
 
 <template>
-  <div>
-    <h2>Top</h2>
-    <p class="mt-5">This is the template with installed Vue3, TS, Vuetify3, Vue-Router, Vuex, Sass.</p>
-    <p>The only pages you can see are this top view(/) and the 404 view(/NotExistsURL).</p>
-    <p>And Nav menu is responsive.</p>
-    <p>Please edit and use it.</p>
-  </div>
+  <v-container class="d-flex fill-height align-center justify-center my-16">
+    <div class="d-flex flex-column align-center">
+      <h2>DEMO: Counter App using Pinia</h2>
+      <div class="d-flex align-center mt-10">
+        <v-btn @click="incrementCount()" color="success">Increment</v-btn>
+        <p class="text-h2 mx-10">{{ store.count }}</p>
+        <v-btn @click="decrementCount()" color="error">Decrement</v-btn>
+      </div>
+    </div>
+  </v-container>
 </template>
