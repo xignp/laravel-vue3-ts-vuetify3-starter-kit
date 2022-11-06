@@ -78,7 +78,7 @@ const getUser = async () => {
 ```
 ## Contributing
 
-Please fork and pull request to main branch when you need new features or find bugs.
+Please fork and pull request to develop branch when you need new features or find bugs.
 
 ## License
 
