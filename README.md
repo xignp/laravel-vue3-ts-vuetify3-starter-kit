@@ -7,8 +7,7 @@
 
 
 ## Features
-- Laravel9 (branch 9.x)
-- Laravel8 (branch 8.x)
+- Laravel9
 - Vue3
 - Typescript
 - Vuetify3 beta
@@ -46,12 +45,6 @@ php artisan config:cache
 php artisan serve
 ```
 
-Laravel8
-```
-npm run watch
-```
-
-Laravel9
 ```
 npm run dev
 ```
