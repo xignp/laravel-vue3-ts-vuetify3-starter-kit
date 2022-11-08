@@ -1,4 +1,4 @@
-# Starter-Kit(BaseTemplate) for Laravel8+Vue3+TS+Vuetify3+VueRouter4+Pinia
+# Starter-Kit(BaseTemplate) for Laravel+Vue3+TS+Vuetify3+VueRouter4+Pinia
 
 ## Demo
 <kbd>![ss1](https://user-images.githubusercontent.com/51684013/199225294-005562ca-06ad-43c4-9fac-964b4ff81f5f.png)</kbd>
@@ -7,7 +7,8 @@
 
 
 ## Features
-- Laravel8
+- Laravel9(branch 9.x)
+- Laravel8 (branch 8.x)
 - Vue3
 - Typescript
 - Vuetify3 beta
