@@ -1,4 +1,4 @@
-# Starter-Kit(BaseTemplate) for Laravel8+Vue3+TS+Vuetify3+VueRouter4+Pinia
+# Starter-Kit(BaseTemplate) for Laravel+Vue3+TS+Vuetify3+VueRouter4+Pinia
 
 ## Demo
 <kbd>![ss1](https://user-images.githubusercontent.com/51684013/199225294-005562ca-06ad-43c4-9fac-964b4ff81f5f.png)</kbd>
@@ -7,7 +7,7 @@
 
 
 ## Features
-- Laravel8
+- Laravel9
 - Vue3
 - Typescript
 - Vuetify3 beta
@@ -44,8 +44,9 @@ php artisan config:cache
 ```
 php artisan serve
 ```
+
 ```
-npm run watch
+npm run dev
 ```
 
 ## Axios Plugin
@@ -76,9 +77,6 @@ const getUser = async () => {
   }
 }
 ```
-## Contributing
-
-Please fork and pull request to develop branch when you need new features or find bugs.
 
 ## License
 
